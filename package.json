@@ -1,7 +1,7 @@
 {
   "name": "CrowdSurfing",
   "main": "server.js",
-  "author" : "Andrew McMullen <amm216@lehigh.edu>"
+  "author" : "Andrew McMullen <amm216@lehigh.edu>",
   "dependencies" : {
     "express" : "~4.0.0",           
     "ejs" : "~0.8.5",               
