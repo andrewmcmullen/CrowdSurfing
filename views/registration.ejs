@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/login_style.css">
+    <link rel="stylesheet" type="text/css" href="css/registration_style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </head>
@@ -15,31 +15,34 @@
 
       <div class="header">
 	<img src="/images/logo.png">
-	<h3>Sign In To CrowdSurf</h3>
+	<h3>Register for CrowdSurf</h3>
+	<h5>It's free and always will be</h5>
 	<br>
       </div>
 
       <div class="well" id="login_form">
 	<form role="form">
 	  <div class="form-group has-feedback">
-	    <label class="control-label" for="email">Email address:</label>
+	    <label for="email">Email address:</label>
 	    <input type="email" class="form-control" placeholder="email address" id="email">
 	    <i class="glyphicon glyphicon-user form-control-feedback"></i>
 	  </div>
 	  <div class="form-group has-feedback">
 	    <label for="pwd">Password:</label>
-	    <input type="password" class="form-control" placeholder="password"id="pwd">
+	    <input type="password" class="form-control" placeholder="password" id="pwd">
 	    <i class="glyphicon glyphicon-lock form-control-feedback"></i>
 	  </div>
-	  <div class="checkbox">
-	    <label><input type="checkbox"> Remember me</label>
+	  <div class="form-group has-feedback">
+	    <label for="pwd">Confirm Password:</label>
+	    <input type="password" class="form-control" placeholder="confirm password" id="pwdconf">
+	    <i class="glyphicon glyphicon-lock form-control-feedback"></i>
 	  </div>
-	  <button type="submit" class="btn btn-primary btn-block" id="sigin_button">Sign In</button>
+	  <button type="submit" class="btn btn-primary btn-block" id="sigin_button">Register Now</button>
 	</form>
       </div>
 
       <div class="well" id="register">
-	New to CrowdSurf? <a href="http://127.0.0.1:8080/register">Create an account here</a>
+	Already a member? <a href="http://127.0.0.1:8080/login">Sign In Here</a>
       </div>
 
     </div>
